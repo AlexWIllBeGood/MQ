@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90e79aba-2794-4f96-9871-e0afe98ceaa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文本文档.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="90e79aba-2794-4f96-9871-e0afe98ceaa8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +19,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="248" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="38" />
           <entry key="Python" value="248" />
         </counts>
       </usages-collector>
@@ -154,6 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556004743576</updated>
     </task>
+    <task id="LOCAL-00001" summary="first try of pyhton">
+      <created>1556007660286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556007660286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -181,6 +187,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first try of pyhton" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try of pyhton" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Python27/Lib/pickle.py">
