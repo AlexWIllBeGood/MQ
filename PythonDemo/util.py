@@ -4,10 +4,10 @@ sys.path.append('C:\Python27\Lib\site-packages')
 import pika
 connection =pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel=connection.channel()
-# 创建Queue
-# channel.queue_declare(queue='hello')
-# 创建exchange
-message=sys.argv[1]
-channel.basic_publish(exchange='',routing_key='hello',body=message)
-print "[x] Sent %r"%(message,)
+channel.queue_delete(queue='Test')
+channel.queue_delete(queue='Test1')
+channel.queue_delete(queue='hello')
+channel.queue_delete(queue='Hello')
+channel.queue_delete(queue='hello world')
+
 connection.close()
