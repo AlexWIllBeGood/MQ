@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e79aba-2794-4f96-9871-e0afe98ceaa8" name="Default Changelist" comment="first try of pyhton">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/producer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Fanout/consumer1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExchangesDemo20190603/Direct/producer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,33 +18,33 @@
     <session id="-311565058">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="6" />
+          <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4150" />
+          <entry key="py" value="4482" />
           <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="4150" />
+          <entry key="Python" value="4482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="90" />
+          <entry key="py" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="90" />
+          <entry key="Python" value="102" />
         </counts>
       </usages-collector>
     </session>
@@ -53,13 +52,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Direct/producer.py">
+        <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Fanout/consumer1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
-                <element signature="e#14#25#0" expanded="true" />
-                <marker date="1559556161826" expanded="true" signature="49:467" ph="..." />
+                <marker date="1559613171362" expanded="true" signature="38:153" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,6 +102,7 @@
         <option value="$PROJECT_DIR$/ExchangesDemo20190603/Direct/producer.py" />
         <option value="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py" />
         <option value="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py" />
+        <option value="$PROJECT_DIR$/ExchangesDemo20190603/Fanout/consumer1.py" />
       </list>
     </option>
   </component>
@@ -121,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,13 +148,12 @@
               <item name="PythonDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonDemo" type="462c0819:PsiDirectoryNode" />
               <item name="ExchangesDemo20190603" type="462c0819:PsiDirectoryNode" />
-              <item name="Direct" type="462c0819:PsiDirectoryNode" />
+              <item name="Fanout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.consumer1">
+  <component name="RunManager" selected="Python.consumer2">
     <configuration name="consumer1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,6 +192,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="consumer2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExchangesDemo20190603/Direct" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,14 +289,15 @@
       <item itemvalue="Python.receive" />
       <item itemvalue="Python.util" />
       <item itemvalue="Python.consumer1" />
+      <item itemvalue="Python.consumer2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.consumer2" />
         <item itemvalue="Python.consumer1" />
         <item itemvalue="Python.send" />
         <item itemvalue="Python.receive" />
         <item itemvalue="Python.util" />
-        <item itemvalue="Python.send" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +331,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32790446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32790446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,40 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExchangesDemo/Direct/Producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/pika/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1460">
           <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-            <marker date="1559557688247" expanded="true" signature="74:565" ph="..." />
-            <marker date="1559557688247" expanded="true" signature="562:563" ph="..." />
-            <marker date="1559557688247" expanded="true" signature="562:564" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1559557709656" expanded="true" signature="37:486" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,20 +498,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ExchangesDemo/Direct/Producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/pika/adapters/blocking_connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="322" column="55" selection-start-line="322" selection-start-column="55" selection-end-line="322" selection-end-column="55" />
+        <state relative-caret-position="240">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Direct/producer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#14#25#0" expanded="true" />
-            <marker date="1559556161826" expanded="true" signature="49:467" ph="..." />
+            <marker date="1559557899484" expanded="true" signature="49:358" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <marker date="1559612988220" expanded="true" signature="578:579" ph="..." />
+            <marker date="1559612988220" expanded="true" signature="578:580" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Direct/consumer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <marker date="1559612997736" expanded="true" signature="37:494" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExchangesDemo20190603/Fanout/consumer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1559613171362" expanded="true" signature="38:153" ph="..." />
           </folding>
         </state>
       </provider>
