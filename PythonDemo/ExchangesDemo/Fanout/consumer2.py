@@ -1,13 +1,16 @@
 #coding=utf-8
-import sys
-sys.path.append('C:\Python27\Lib\site-packages')
 import pika
-connection =pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-channel=connection.channel()
-channel.queue_declare(queue='test2')
 
-def callback(ch,method,properties,body):
-    print "[x] Received %r" %(body,)
+def Main():
+    # credential=pika.PlainCredentials("alex","alex")
+    parameters=pika.ConnectionParameters("localhost")
+    connection=pika.BlockingConnection(parameters)
+    channel=connection.channel()
+    channel.queue_declare(queue="test2")
+    def callback(ch,method,properties,body):
+        print "%r recieved %r"%("consumer2",body)
+    channel.basic_consume(consumer_callback=callback,no_ack=True,queue="test2")
+    channel.start_consuming()
 
-channel.basic_consume(callback,queue='test2',no_ack=True)
-channel.start_consuming()
+if __name__ == '__main__':
+    Main()

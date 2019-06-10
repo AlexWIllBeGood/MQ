@@ -1,5 +1,6 @@
 #coding=utf-8
 import pika
+import sys
 
 def Main():
     credential=pika.PlainCredentials("alex","alex")
@@ -16,7 +17,10 @@ def Main():
     #绑定queue
     channel.queue_bind(exchange="exchange1", queue="test1")
     channel.queue_bind(exchange="exchange1", queue="test3")
-    
+
+    message=sys.argv[1]
+    channel.basic_publish(exchange="exchange1",body=message,routing_key="")
+    connection.close()
 
 if __name__ == '__main__':
     Main()
